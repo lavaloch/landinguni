@@ -1,0 +1,49 @@
+h1 {
+	font-family: 'Cutive Mono', monospace;
+	color: white;
+	font-size: 17px;
+	text-align: center;	
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Cutive Mono', monospace;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.global {
+	display: relative;
+	height: 100%;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url(images/fond.jpg);  	
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+}
+.informations {
+	display: relative;
+	padding-top: 400px;
+}
+
+.informations a {
+	text-decoration: none;
+	color: white;
+}
+.informations a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	display: absolute;
+	top: 300px;
+	left: 300px;
+}
+.contact {
+	display: absolute;
+	top: 20px;
+	right: 800px;
+}
+
