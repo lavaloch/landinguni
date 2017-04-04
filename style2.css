@@ -8,7 +8,7 @@ body, html {
 }
 
 .line {
-	height: 20%;
+	height: 25%;
 }
 /*.line-footer {
 	height: 50%;
@@ -18,15 +18,17 @@ body, html {
 }
 #logo {
 	position: absolute;
-	left: 20px;
+	left: 60px;
+	background-color: rgba(255, 255, 255, 0.4);		
+
 }
 .informations {
-padding-top: 30px;
+	height: 20%;
 }
 
 .informations h1 {
 	font-family: 'Cutive Mono', monospace;
-	font-size: 16px;
+	font-size: 17px;
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
@@ -52,27 +54,22 @@ a {
 }
 
 .informations a:hover {
-	color: #201ecd;
+	color: #ffffff;
 }
 
 .corner {
 	display: flex;
-	padding-top: 55px;
-
 }
 
 #button {
 	font-size: 20px;
-	margin: auto;
-	padding-bottom: 50px;
 	text-align: center;
 }
-#button:hover {
-	color: #201ecd;
-}
+
 .line-footer {
 	position: relative;
 }
+
 
 
 
